@@ -1,0 +1,29 @@
+{
+  "name": "vue-2.0-routing-example",
+  "description": "Inspired by https://medium.com/@tarkus/you-might-not-need-react-router-38673620f3d",
+  "author": "Avi Block <atblock@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --inline --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "history": "^3.0.0",
+    "route-recognizer": "^0.2.0",
+    "vue": "^2.0.0-beta.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-helper-vue-jsx-merge-props": "^1.0.1",
+    "babel-loader": "^6.0.0",
+    "babel-plugin-syntax-jsx": "^6.8.0",
+    "babel-plugin-transform-vue-jsx": "^1.1.1",
+    "babel-preset-es2015": "^6.0.0",
+    "cross-env": "^1.0.6",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.4",
+    "vue-loader": "^9.0.0",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.0"
+  }
+}
